@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  common-gitops:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    created: "2023-01-02T03:42:10.77051787Z"
+    description: A Library Helm Chart with common gitops functions. This chart is
+      not deployable by itself.
+    digest: 083048671a251c42e372e290368a165b0ff85be75dc73ce34c7110796fbc1fad
+    home: https://github.com/luminartech/helm-repo-public
+    keywords:
+    - common-gitops
+    - helper
+    - template
+    - function
+    - gitops
+    - crossplane
+    - infrastructure
+    - library
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: common-gitops
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/common-gitops
+    type: library
+    urls:
+    - common-gitops-0.9.tgz
+    version: "0.9"
+generated: "2023-01-02T03:42:10.769945772Z"
