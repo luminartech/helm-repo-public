@@ -4,7 +4,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-02T12:00:08.88722259Z"
+    created: "2023-01-02T12:47:31.577645681Z"
     description: A Library Helm Chart for common gitops functions. This chart is not
       deployable by itself.
     digest: 449d3b11c666bd6c8edfe9f4c016247fd5159987707fa44f066d882ec0f6af25
@@ -36,7 +36,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-02T12:00:08.886265874Z"
+    created: "2023-01-02T12:47:31.576871385Z"
     description: A Library Helm Chart for common gitops functions. This chart is not
       deployable by itself.
     digest: c303af8631bbaac59fe74cfaa0b1c107aa1bb695ce8c27dc94197521c8f1b497
@@ -68,7 +68,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-02T12:00:08.886739882Z"
+    created: "2023-01-02T12:47:31.577259883Z"
     description: A Library Helm Chart with common gitops functions. This chart is
       not deployable by itself.
     digest: 083048671a251c42e372e290368a165b0ff85be75dc73ce34c7110796fbc1fad
@@ -101,7 +101,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.33.0
-    created: "2023-01-02T12:00:08.888411309Z"
+    created: "2023-01-02T12:47:31.578644876Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -122,4 +122,134 @@ entries:
     urls:
     - https://helm-repo-public.luminarinfra.com/crossplane-aws-apigateway-0.33.0.tgz
     version: 0.33.0
-generated: "2023-01-02T12:00:08.885584763Z"
+  crossplane-aws-ec2:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-01-02T12:47:31.57978427Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.0
+    description: A Helm chart for crossplane AWS ec2 resources
+    digest: c90735a846b5964e297bf9e04c1428e85c02f4f41036c5b699473c9ebfeeab10
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-ec2
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/crossplane-aws-ec2
+    urls:
+    - https://helm-repo-public.luminarinfra.com/crossplane-aws-ec2-0.31.0.tgz
+    version: 0.31.0
+  crossplane-aws-efs:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-01-02T12:47:31.580413867Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.0
+    description: A Helm chart for crossplane AWS EFS resources
+    digest: ab594903116ac1aea7d76842afd14f6a92ffe0bab4e6f84ca75125dc83fc3362
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-efs
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/crossplane-aws-efs
+    urls:
+    - https://helm-repo-public.luminarinfra.com/crossplane-aws-efs-0.31.0.tgz
+    version: 0.31.0
+  crossplane-aws-iam:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-01-02T12:47:31.581161663Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.0
+    description: A Helm chart for crossplane AWS IAM resources
+    digest: f2635eaea92c342a901db9fbbc8b634e2a086deac812bc4c41c257142f1749db
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-iam
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/crossplane-aws-iam
+    urls:
+    - https://helm-repo-public.luminarinfra.com/crossplane-aws-iam-0.31.0.tgz
+    version: 0.31.0
+  crossplane-aws-ram:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-01-02T12:47:31.581943759Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.0
+    description: A Helm chart for crossplane AWS RAM resources
+    digest: 6eb76714f56e6d9c35fcf9b56aae08dc3eb34c0806fcfdcfb5bb564074c92703
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-ram
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/crossplane-aws-ram
+    urls:
+    - https://helm-repo-public.luminarinfra.com/crossplane-aws-ram-0.31.0.tgz
+    version: 0.31.0
+  crossplane-aws-s3:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-01-02T12:47:31.583272352Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.0
+    description: A Helm chart for crossplane AWS S3 resources
+    digest: 5dac2555bf25f6fff8d4014d3ef0dbd8ffd6c00c3aacc606ac1854ae805ee902
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-s3
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/crossplane-aws-s3
+    urls:
+    - https://helm-repo-public.luminarinfra.com/crossplane-aws-s3-0.31.0.tgz
+    version: 0.31.0
+generated: "2023-01-02T12:47:31.576263688Z"
