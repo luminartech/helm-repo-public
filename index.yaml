@@ -4,7 +4,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-02T12:47:31.577645681Z"
+    created: "2023-01-02T13:01:05.941278991Z"
     description: A Library Helm Chart for common gitops functions. This chart is not
       deployable by itself.
     digest: 449d3b11c666bd6c8edfe9f4c016247fd5159987707fa44f066d882ec0f6af25
@@ -36,7 +36,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-02T12:47:31.576871385Z"
+    created: "2023-01-02T13:01:05.940466458Z"
     description: A Library Helm Chart for common gitops functions. This chart is not
       deployable by itself.
     digest: c303af8631bbaac59fe74cfaa0b1c107aa1bb695ce8c27dc94197521c8f1b497
@@ -68,7 +68,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-02T12:47:31.577259883Z"
+    created: "2023-01-02T13:01:05.940880575Z"
     description: A Library Helm Chart with common gitops functions. This chart is
       not deployable by itself.
     digest: 083048671a251c42e372e290368a165b0ff85be75dc73ce34c7110796fbc1fad
@@ -101,7 +101,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.33.0
-    created: "2023-01-02T12:47:31.578644876Z"
+    created: "2023-01-02T13:01:05.942326433Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -127,7 +127,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T12:47:31.57978427Z"
+    created: "2023-01-02T13:01:05.94348618Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -148,12 +148,38 @@ entries:
     urls:
     - https://helm-repo-public.luminarinfra.com/crossplane-aws-ec2-0.31.0.tgz
     version: 0.31.0
+  crossplane-aws-ecr:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-01-02T13:01:05.944140406Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.0
+    description: A Helm chart for crossplane AWS ECR resources
+    digest: 6ad96cfe55c03111e89d39f481763b0b9ece1bb440b2952dd36859c069b96595
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-ecr
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/crossplane-aws-ecr
+    urls:
+    - https://helm-repo-public.luminarinfra.com/crossplane-aws-ecr-0.31.0.tgz
+    version: 0.31.0
   crossplane-aws-efs:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T12:47:31.580413867Z"
+    created: "2023-01-02T13:01:05.944774632Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -179,7 +205,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T12:47:31.581161663Z"
+    created: "2023-01-02T13:01:05.946012882Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -205,7 +231,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T12:47:31.581943759Z"
+    created: "2023-01-02T13:01:05.946801814Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -231,7 +257,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T12:47:31.583272352Z"
+    created: "2023-01-02T13:01:05.947770753Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -252,4 +278,4 @@ entries:
     urls:
     - https://helm-repo-public.luminarinfra.com/crossplane-aws-s3-0.31.0.tgz
     version: 0.31.0
-generated: "2023-01-02T12:47:31.576263688Z"
+generated: "2023-01-02T13:01:05.939876534Z"
