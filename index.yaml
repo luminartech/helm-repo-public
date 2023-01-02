@@ -4,7 +4,39 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-02T11:14:49.05391446Z"
+    created: "2023-01-02T11:34:33.304241216Z"
+    description: A Library Helm Chart for common gitops functions. This chart is not
+      deployable by itself.
+    digest: 449d3b11c666bd6c8edfe9f4c016247fd5159987707fa44f066d882ec0f6af25
+    home: https://helm-repo-public.luminarinfra.com
+    keywords:
+    - common-gitops
+    - helper
+    - template
+    - function
+    - gitops
+    - crossplane
+    - infrastructure
+    - library
+    - iac
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: common-gitops
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/common-gitops
+    type: library
+    urls:
+    - https://helm-repo-public.luminarinfra.com/common-gitops-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    created: "2023-01-02T11:34:33.303458218Z"
     description: A Library Helm Chart for common gitops functions. This chart is not
       deployable by itself.
     digest: c303af8631bbaac59fe74cfaa0b1c107aa1bb695ce8c27dc94197521c8f1b497
@@ -36,7 +68,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-02T11:14:49.054422366Z"
+    created: "2023-01-02T11:34:33.303863117Z"
     description: A Library Helm Chart with common gitops functions. This chart is
       not deployable by itself.
     digest: 083048671a251c42e372e290368a165b0ff85be75dc73ce34c7110796fbc1fad
@@ -64,4 +96,4 @@ entries:
     urls:
     - https://helm-repo-public.luminarinfra.com/common-gitops-0.9.tgz
     version: "0.9"
-generated: "2023-01-02T11:14:49.053285052Z"
+generated: "2023-01-02T11:34:33.302868019Z"
