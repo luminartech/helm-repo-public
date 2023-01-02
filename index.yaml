@@ -4,7 +4,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-02T14:16:00.170705695Z"
+    created: "2023-01-02T14:46:30.1156786Z"
     description: A Library Helm Chart for common gitops functions. This chart is not
       deployable by itself.
     digest: 449d3b11c666bd6c8edfe9f4c016247fd5159987707fa44f066d882ec0f6af25
@@ -36,7 +36,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-02T14:16:00.169877292Z"
+    created: "2023-01-02T14:46:30.114373147Z"
     description: A Library Helm Chart for common gitops functions. This chart is not
       deployable by itself.
     digest: c303af8631bbaac59fe74cfaa0b1c107aa1bb695ce8c27dc94197521c8f1b497
@@ -68,7 +68,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-02T14:16:00.170310093Z"
+    created: "2023-01-02T14:46:30.11518288Z"
     description: A Library Helm Chart with common gitops functions. This chart is
       not deployable by itself.
     digest: 083048671a251c42e372e290368a165b0ff85be75dc73ce34c7110796fbc1fad
@@ -101,7 +101,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.33.0
-    created: "2023-01-02T14:16:00.171727399Z"
+    created: "2023-01-02T14:46:30.116838947Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -127,7 +127,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T14:16:00.172857303Z"
+    created: "2023-01-02T14:46:30.119100739Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -148,12 +148,37 @@ entries:
     urls:
     - https://helm-repo-public.luminarinfra.com/crossplane-aws-ec2-0.31.0.tgz
     version: 0.31.0
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-01-02T14:46:30.117977693Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.0
+    description: A Helm chart for crossplane AWS ec2 resources
+    digest: 7bbe92dbb2d52db5ff23010d70b574185d238867366bdfc2294147650c8b914d
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-ec2
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/crossplane-aws-ec2
+    urls:
+    - https://helm-repo-public.luminarinfra.com/crossplane-aws-ec2-0.31.0-1.tgz
+    version: 0.31.0-1
   crossplane-aws-ecr:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T14:16:00.173516305Z"
+    created: "2023-01-02T14:46:30.119753866Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -179,7 +204,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T14:16:00.174151407Z"
+    created: "2023-01-02T14:46:30.120398792Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -205,7 +230,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T14:16:00.17483561Z"
+    created: "2023-01-02T14:46:30.121288828Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -230,7 +255,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T14:16:00.175881914Z"
+    created: "2023-01-02T14:46:30.123101101Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -251,12 +276,37 @@ entries:
     urls:
     - https://helm-repo-public.luminarinfra.com/crossplane-aws-eks-0.31.0.tgz
     version: 0.31.0
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-01-02T14:46:30.122165163Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.0
+    description: A Helm chart for crossplane AWS EKS resources
+    digest: 375cc39b06478173f8e265bdfae8fb94067eccd808e0ed5769836aed9b24a425
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-eks
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/crossplane-aws-eks
+    urls:
+    - https://helm-repo-public.luminarinfra.com/crossplane-aws-eks-0.31.0-2.tgz
+    version: 0.31.0-2
   crossplane-aws-iam:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T14:16:00.176625016Z"
+    created: "2023-01-02T14:46:30.126107623Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -277,12 +327,37 @@ entries:
     urls:
     - https://helm-repo-public.luminarinfra.com/crossplane-aws-iam-0.31.0.tgz
     version: 0.31.0
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-01-02T14:46:30.124603362Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.0
+    description: A Helm chart for crossplane AWS IAM resources
+    digest: eabc507a79e0c95bc6f19451062a9523d071953357aa8ccbb4f66c347f5a437d
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-iam
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/crossplane-aws-iam
+    urls:
+    - https://helm-repo-public.luminarinfra.com/crossplane-aws-iam-0.31.0-1.tgz
+    version: 0.31.0-1
   crossplane-aws-kms:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T14:16:00.178466623Z"
+    created: "2023-01-02T14:46:30.127624785Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -303,12 +378,37 @@ entries:
     urls:
     - https://helm-repo-public.luminarinfra.com/crossplane-aws-kms-0.31.0.tgz
     version: 0.31.0
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-01-02T14:46:30.126975859Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.0
+    description: A Helm chart for crossplane AWS KMS resources
+    digest: 161e21823a9028e647df664b2e72151519fff64f30c1550959cd9e30202e3d66
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-kms
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/crossplane-aws-kms
+    urls:
+    - https://helm-repo-public.luminarinfra.com/crossplane-aws-kms-0.31.0-1.tgz
+    version: 0.31.0-1
   crossplane-aws-ram:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T14:16:00.179479927Z"
+    created: "2023-01-02T14:46:30.128216609Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -334,7 +434,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T14:16:00.180153729Z"
+    created: "2023-01-02T14:46:30.128837834Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -360,7 +460,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T14:16:00.180837932Z"
+    created: "2023-01-02T14:46:30.130242491Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -381,12 +481,37 @@ entries:
     urls:
     - https://helm-repo-public.luminarinfra.com/crossplane-aws-s3-0.31.0.tgz
     version: 0.31.0
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-01-02T14:46:30.129543863Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.0
+    description: A Helm chart for crossplane AWS S3 resources
+    digest: a94a023a528c9a797c238b4f42181392c33d338913cd9239d02291dbecaf89fb
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-s3
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/crossplane-aws-s3
+    urls:
+    - https://helm-repo-public.luminarinfra.com/crossplane-aws-s3-0.31.0-1.tgz
+    version: 0.31.0-1
   crossplane-aws-secretsmanager:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-02T14:16:00.181447234Z"
+    created: "2023-01-02T14:46:30.131428839Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -407,12 +532,37 @@ entries:
     urls:
     - https://helm-repo-public.luminarinfra.com/crossplane-aws-secretsmanager-0.31.0.tgz
     version: 0.31.0
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-01-02T14:46:30.130828415Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.0
+    description: A Helm chart for crossplane AWS Secretsmanager resources
+    digest: 04047979d2aeff54cbeb8077f04e4e40b96f81effdba97fd27568edeef732751
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-secretsmanager
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/crossplane-aws-secretsmanager
+    urls:
+    - https://helm-repo-public.luminarinfra.com/crossplane-aws-secretsmanager-0.31.0-1.tgz
+    version: 0.31.0-1
   crossplane-kubernetes:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-01-02T14:16:00.182031936Z"
+    created: "2023-01-02T14:46:30.132022564Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -438,7 +588,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 40.1.0
-    created: "2023-01-02T14:16:00.182682439Z"
+    created: "2023-01-02T14:46:30.13268039Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -459,4 +609,4 @@ entries:
     urls:
     - https://helm-repo-public.luminarinfra.com/prometheus-service-discovery-40.1.0.tgz
     version: 40.1.0
-generated: "2023-01-02T14:16:00.16926049Z"
+generated: "2023-01-02T14:46:30.11345171Z"
