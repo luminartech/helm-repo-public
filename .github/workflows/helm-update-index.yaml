@@ -1,0 +1,29 @@
+name: '[HELM] Update Helm Index'
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '**.tgz'
+jobs:
+  update-index:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@v3
+        with:
+          path: ${{ github.repository }}
+      - name: Helm Installation
+        uses: azure/setup-helm@v3
+        with:
+          version: v3.10.3
+      - name: Update Helm Index
+        run: |
+          cd ${{ github.repository }}
+          git config --global user.email "sre@luminartech.com"
+          git config --global user.name "CI Bot"
+          helm repo index . --url=${{ secrets.HELM_REPO_URL }} --merge ./index.yaml
+          helm plugin install https://github.com/halkeye/helm-repo-html
+          helm repo-html
+          git add index.yaml index.html
+          git commit -m "[ CI Bot ] Updated helm chart index"
+          git push
