@@ -2,8 +2,8 @@ name: '[HELM] Update Helm Index'
 on:
   push:
     branches: [ main ]
-    # paths:
-    #   - '**.tgz'
+    paths:
+      - '**.tgz'
 jobs:
   update-index:
     runs-on: ubuntu-20.04
