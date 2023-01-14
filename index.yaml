@@ -4,7 +4,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-14T09:57:15.449933668Z"
+    created: "2023-01-14T20:03:22.447622487Z"
     description: A Library Helm Chart for common gitops functions. This chart is not
       deployable by itself.
     digest: 30f65f7e9a449105730e3d815b77f23123fea49e6fc3011a6a03379c8a0525f8
@@ -36,7 +36,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-14T09:57:15.449250461Z"
+    created: "2023-01-14T20:03:22.447246188Z"
     description: A Library Helm Chart for common gitops functions. This chart is not
       deployable by itself.
     digest: 083cc25114d8eb4ae081cba1586d5c6b9ab82706327d6809702ed6a3c0d1e983
@@ -68,7 +68,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-14T09:57:15.448784256Z"
+    created: "2023-01-14T20:03:22.446851389Z"
     description: A Library Helm Chart for common gitops functions. This chart is not
       deployable by itself.
     digest: 449d3b11c666bd6c8edfe9f4c016247fd5159987707fa44f066d882ec0f6af25
@@ -100,7 +100,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-14T09:57:15.447768245Z"
+    created: "2023-01-14T20:03:22.446064491Z"
     description: A Library Helm Chart for common gitops functions. This chart is not
       deployable by itself.
     digest: c303af8631bbaac59fe74cfaa0b1c107aa1bb695ce8c27dc94197521c8f1b497
@@ -132,7 +132,7 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
-    created: "2023-01-14T09:57:15.448321851Z"
+    created: "2023-01-14T20:03:22.44646819Z"
     description: A Library Helm Chart with common gitops functions. This chart is
       not deployable by itself.
     digest: 083048671a251c42e372e290368a165b0ff85be75dc73ce34c7110796fbc1fad
@@ -163,7 +163,7 @@ entries:
   common-res:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-01-14T09:57:15.458252056Z"
+    created: "2023-01-14T20:03:22.455298665Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -190,7 +190,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: latest
-    created: "2023-01-14T09:57:15.456835441Z"
+    created: "2023-01-14T20:03:22.454375668Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -217,7 +217,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: latest
-    created: "2023-01-14T09:57:15.454960121Z"
+    created: "2023-01-14T20:03:22.453233171Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -244,7 +244,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: latest
-    created: "2023-01-14T09:57:15.453571906Z"
+    created: "2023-01-14T20:03:22.45001368Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -271,7 +271,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: latest
-    created: "2023-01-14T09:57:15.452192292Z"
+    created: "2023-01-14T20:03:22.449214582Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -298,7 +298,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: latest
-    created: "2023-01-14T09:57:15.45103108Z"
+    created: "2023-01-14T20:03:22.448460385Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -328,7 +328,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.33.0
-    created: "2023-01-14T09:57:15.46055738Z"
+    created: "2023-01-14T20:03:22.45717306Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -349,12 +349,37 @@ entries:
     urls:
     - https://helm-repo-public.luminarinfra.com/crossplane-aws-apigateway/crossplane-aws-apigateway-0.33.0.tgz
     version: 0.33.0
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.33.0
+    created: "2023-01-14T20:03:22.456266762Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.0
+    description: A Helm chart for crossplane AWS ApiGateway resources
+    digest: 99f1e24920dbba68a4ad64ddb57246fa88891b4f7f1aac66067686fdd2d2ac3f
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-apigateway
+    sources:
+    - https://github.com/luminartech/helm-charts-public
+    urls:
+    - https://helm-repo-public.luminarinfra.com/crossplane-aws-apigateway/crossplane-aws-apigateway-0.33.0-1.tgz
+    version: 0.33.0-1
   crossplane-aws-ec2:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.46339681Z"
+    created: "2023-01-14T20:03:22.459398153Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -379,7 +404,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.462066096Z"
+    created: "2023-01-14T20:03:22.458306756Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -405,7 +430,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.464273319Z"
+    created: "2023-01-14T20:03:22.460071451Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -431,7 +456,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.465076028Z"
+    created: "2023-01-14T20:03:22.46069685Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -457,7 +482,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.46629094Z"
+    created: "2023-01-14T20:03:22.461355848Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -482,7 +507,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.467910457Z"
+    created: "2023-01-14T20:03:22.46412964Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -507,7 +532,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.467147549Z"
+    created: "2023-01-14T20:03:22.462572544Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -533,7 +558,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.469985279Z"
+    created: "2023-01-14T20:03:22.465646635Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -558,7 +583,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.469055969Z"
+    created: "2023-01-14T20:03:22.464904538Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -584,7 +609,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.471530896Z"
+    created: "2023-01-14T20:03:22.466851532Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -609,7 +634,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.470818688Z"
+    created: "2023-01-14T20:03:22.466253634Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -635,7 +660,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.472692108Z"
+    created: "2023-01-14T20:03:22.46742553Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -661,7 +686,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.474148423Z"
+    created: "2023-01-14T20:03:22.468038529Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -687,7 +712,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.475933842Z"
+    created: "2023-01-14T20:03:22.469341425Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -712,7 +737,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.475031332Z"
+    created: "2023-01-14T20:03:22.468699927Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -738,7 +763,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.477330157Z"
+    created: "2023-01-14T20:03:22.470521322Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -763,7 +788,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2023-01-14T09:57:15.476642649Z"
+    created: "2023-01-14T20:03:22.469934423Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -789,7 +814,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-01-14T09:57:15.478025964Z"
+    created: "2023-01-14T20:03:22.47110772Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -815,7 +840,7 @@ entries:
       category: Application
     apiVersion: v2
     appVersion: 0.7.1
-    created: "2023-01-14T09:57:15.539504711Z"
+    created: "2023-01-14T20:03:22.526134863Z"
     dependencies:
     - condition: external-secrets.enabled
       name: external-secrets
@@ -848,7 +873,7 @@ entries:
       category: Application
     apiVersion: v2
     appVersion: 0.7.1
-    created: "2023-01-14T09:57:15.534395558Z"
+    created: "2023-01-14T20:03:22.520275879Z"
     dependencies:
     - condition: external-secrets.enabled
       name: external-secrets
@@ -881,7 +906,7 @@ entries:
       category: Application
     apiVersion: v2
     appVersion: 0.7.1
-    created: "2023-01-14T09:57:15.527592586Z"
+    created: "2023-01-14T20:03:22.515534393Z"
     dependencies:
     - condition: external-secrets.enabled
       name: external-secrets
@@ -914,7 +939,7 @@ entries:
       category: Application
     apiVersion: v2
     appVersion: 0.7.1
-    created: "2023-01-14T09:57:15.522011327Z"
+    created: "2023-01-14T20:03:22.509963809Z"
     dependencies:
     - condition: external-secrets.enabled
       name: external-secrets
@@ -947,7 +972,7 @@ entries:
       category: Application
     apiVersion: v2
     appVersion: 0.7.1
-    created: "2023-01-14T09:57:15.515440958Z"
+    created: "2023-01-14T20:03:22.505233722Z"
     dependencies:
     - condition: external-secrets.enabled
       name: external-secrets
@@ -980,7 +1005,7 @@ entries:
       category: Application
     apiVersion: v2
     appVersion: 0.7.0
-    created: "2023-01-14T09:57:15.508752788Z"
+    created: "2023-01-14T20:03:22.499264939Z"
     dependencies:
     - condition: external-secrets.enabled
       name: external-secrets
@@ -1013,7 +1038,7 @@ entries:
       category: Application
     apiVersion: v2
     appVersion: 0.7.0
-    created: "2023-01-14T09:57:15.502560422Z"
+    created: "2023-01-14T20:03:22.494522553Z"
     dependencies:
     - condition: external-secrets.enabled
       name: external-secrets
@@ -1046,7 +1071,7 @@ entries:
       category: Application
     apiVersion: v2
     appVersion: 0.7.0
-    created: "2023-01-14T09:57:15.497242466Z"
+    created: "2023-01-14T20:03:22.488387671Z"
     dependencies:
     - condition: external-secrets.enabled
       name: external-secrets
@@ -1079,7 +1104,7 @@ entries:
       category: Application
     apiVersion: v2
     appVersion: 0.7.0
-    created: "2023-01-14T09:57:15.491059001Z"
+    created: "2023-01-14T20:03:22.483593384Z"
     dependencies:
     - condition: external-secrets.enabled
       name: external-secrets
@@ -1112,7 +1137,7 @@ entries:
       category: Application
     apiVersion: v2
     appVersion: 0.7.0
-    created: "2023-01-14T09:57:15.485163039Z"
+    created: "2023-01-14T20:03:22.477272902Z"
     dependencies:
     - condition: external-secrets.enabled
       name: external-secrets
@@ -1146,7 +1171,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 40.1.0
-    created: "2023-01-14T09:57:15.540256519Z"
+    created: "2023-01-14T20:03:22.526802861Z"
     dependencies:
     - name: common-gitops
       repository: https://helm-repo-public.luminarinfra.com/
@@ -1167,4 +1192,4 @@ entries:
     urls:
     - https://helm-repo-public.luminarinfra.com/prometheus-service-discovery/prometheus-service-discovery-40.1.0.tgz
     version: 40.1.0
-generated: "2023-01-14T09:57:15.447076938Z"
+generated: "2023-01-14T20:03:22.445468293Z"
