@@ -4,6 +4,7 @@ on:
     branches: [ main ]
     paths:
       - '**.tgz'
+      - '.github/workflows/helm-update-index.yaml'
 jobs:
   update-index:
     runs-on: ubuntu-latest
